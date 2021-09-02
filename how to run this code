@@ -1,0 +1,29 @@
+1 create a folder name Classcrud inside htdoc.
+insert all the files which i have uploaded on github inside Classcrud folder such as Classcrud contains all the 4 files.
+create a newdatabase inside xampp name as class which contain 9 columns.
+
+Database:- Structure
+#	Name	Type	Collation	Attributes	Null	Default	Comments	Extra	Action
+	1	rollno	int(11)			No	None			Change Change	Drop Drop	
+
+	2	name	varchar(50)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+
+	3	divi	varchar(10)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+
+	4	English	int(11)			No	None			Change Change	Drop Drop	
+
+	5	Hindi	int(11)			  No	None			Change Change	Drop Drop	
+
+	6	Marathi	int(11)			No	None			Change Change	Drop Drop	
+
+	7	Totallmarks	int(11)			No	None			Change Change	Drop Drop	
+
+	8	percentage	int(11)			No	None			Change Change	Drop Drop	
+
+	9	result	varchar(20)	  	utf8mb4_general_ci		No	None			Change Change	Drop Drop	.
+  
+  NOW TO RUN THE CODE OPEN CHROME AND SEARCH  http://localhost/yourfloader name/classcrud/index.php?#
+  
+  note: -change header location from update and delete folder;
+  on update.php line no 64 :- header("location: http://localhost/yourfloader name/classcrud/index.php?#");
+  on delete.php line no 11 :-  header("location:http://localhost/yourfloader name/classcrud/index.php?#");
